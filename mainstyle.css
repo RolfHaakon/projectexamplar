@@ -1,3 +1,63 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*Normal Containers*/
+.container{
+	margin:10%;
+}
+/*Containers for Artists*/
+.artists{
+	height: 300px;
+	padding: 5%;
+}
+.artists .iconleft{ 
+	float:left; 
+	height:80%; 
+	overflow:hidden; 
+	padding: 20px;
+}
+.artists .iconleft ul{ 
+	list-style: none;
+	padding-top: 125%;
+}
+
+.artists .imgleft { 
+	float:left; 
+	height:80%; 
+	padding: 20px;
+
+}
+.artists .textleft { 
+	float:left; 
+	height:80%; 
+	overflow:hidden; 
+	padding: 20px;
+	text-align: justify;
+}
+
+.artists .iconright{ 
+	float:right; 
+	height:80%; 
+	overflow:hidden; 
+	padding: 20px;
+	margin-top: 50px;
+}
+.artists .iconright ul{ 
+	list-style: none;
+}
+
+.artists .imgright { 
+	float:right; 
+	height:80%; 
+	padding: 20px;
+
+}
+.artists .textright { 
+	float:left; 
+	height:80%; 
+	overflow:hidden; 
+	padding: 20px;
+	text-align:justify;
+}
+
+
