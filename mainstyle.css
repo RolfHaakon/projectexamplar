@@ -5,42 +5,54 @@
     margin: 0 10%;
 }
 .artists{
-    padding: 5%;
+    height:315px;
 }
 
 
-.left .contacticons{ 
-	float:left; 
-	height:80%; 
-	overflow:hidden; 
-	padding: 5px 20px;
-    border: 1px solid rgb(0, 0, 0);
+
+.artists .iconleft{
+    float: left;
+    margin-right: 20px;
 }
-.left .contacticons ul{
+.artists .imgleft{
+    float: left;
+    margin-right: 20px;
+}
+.artists .textleft{
+    text-align: justify;
+    line-height: 150%;
+    margin-right: 20px;
+}
+.artists .iconleft ul{
     list-style: none;
     padding: 0;
-    margin: 0;
 }
-.left .contacticons i{
-    color: rgb(0, 0, 0);
-}
-.left .textright{
-    padding: 30px;
+.artists .iconleft i{
+    color: rgb(0, 0, 100);
+    font-size: 28px;
+    margin-bottom: 15px;
 }
 
 
 
-
-
-.right .contacticons{
-	float:right; 
-	height:80%; 
-	overflow:hidden; 
-	padding: 20px;
-    border: 1px solid rgb(0, 0, 0);
+.artists .iconright{
+    float: right;
+    margin-left: 20px;
 }
-.right .contacticons ul{
+.artists .imgright{
+    float: right;
+    margin-left: 20px;
+}
+.artists .textright{
+    text-align: justify;
+    line-height: 150%;
+}
+.artists .iconright ul{
     list-style: none;
     padding: 0;
-    margin: 0;
+}
+.artists .iconright i{
+    color: rgb(0, 0, 100);
+    font-size: 28px;
+    margin-bottom: 15px;
 }
