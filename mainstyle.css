@@ -1,3 +1,42 @@
 @charset "utf-8";
 /* CSS Document */
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	border: 1px solid black;
+	}
 
+li {
+	float: left;
+
+}
+
+li a {
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+
+a:hover:not(.active) {
+  	color: orange;
+}
+
+.source:hover .dropcontent {
+	display: block;
+}
+
+.source {
+	display: inline-block;
+}
+
+.dropcontent {
+	display: none;
+	position: absolute;
+	border: 1px solid black;
+	background-color: white;
+	box-shadow: 0px 3px 3px 0px;
+	min-width: 120px;
+}
