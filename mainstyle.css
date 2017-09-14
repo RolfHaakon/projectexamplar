@@ -1,63 +1,63 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*Normal Containers*/
 .container{
-	margin:10%;
+    margin: 0 10%;
 }
-/*Containers for Artists*/
+h1{
+    font-size: 48px;
+}
 .artists{
-	height: 300px;
-	padding: 5%;
-}
-.artists .iconleft{ 
-	float:left; 
-	height:80%; 
-	overflow:hidden; 
-	padding: 20px;
-}
-.artists .iconleft ul{ 
-	list-style: none;
-	padding-top: 125%;
-}
-
-.artists .imgleft { 
-	float:left; 
-	height:80%; 
-	padding: 20px;
-
-}
-.artists .textleft { 
-	float:left; 
-	height:80%; 
-	overflow:hidden; 
-	padding: 20px;
-	text-align: justify;
-}
-
-.artists .iconright{ 
-	float:right; 
-	height:80%; 
-	overflow:hidden; 
-	padding: 20px;
-	margin-top: 50px;
-}
-.artists .iconright ul{ 
-	list-style: none;
-}
-
-.artists .imgright { 
-	float:right; 
-	height:80%; 
-	padding: 20px;
-
-}
-.artists .textright { 
-	float:left; 
-	height:80%; 
-	overflow:hidden; 
-	padding: 20px;
-	text-align:justify;
+    overflow: hidden;
 }
 
 
+
+.artists .iconleft{
+    float: left;
+    margin-right: 20px;
+}
+.artists .imgleft{
+    float: left;
+    margin-right: 20px;
+}
+.artists .textleft{
+    text-align: justify;
+    line-height: 150%;
+    margin-right: 20px;
+	overflow: hidden;
+}
+.artists .iconleft ul{
+    list-style: none;
+    padding: 0;
+}
+.artists .iconleft i{
+    color: rgb(0, 0, 50);
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+
+
+.artists .iconright{
+    float: right;
+    margin-left: 20px;
+}
+.artists .imgright{
+    float: right;
+    margin-left: 20px;
+}
+.artists .textright{
+    text-align: justify;
+    line-height: 150%;
+	overflow: hidden;
+}
+.artists .iconright ul{
+    list-style: none;
+    padding: 0;
+}
+.artists .iconright i{
+    color: rgb(0, 0, 50);
+    font-size: 28px;
+    margin-bottom: 15px;
+}
