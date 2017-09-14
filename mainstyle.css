@@ -10,7 +10,6 @@ nav li {
 	float: left;
 
 }
-
 nav ul li a {
 	color: black;
 	padding-left: 10px;
@@ -19,19 +18,15 @@ nav ul li a {
 	font-size: 20px;
 
 }
-
 nav a:hover:not(.active) {
   	color: orange;
 }
-
 nav .source:hover .dropcontent {
 	display: block;
 }
-
 nav .source {
 	display: inline-block;
 }
-
 .dropcontent {
 	display: none;
 	position: absolute;
@@ -40,17 +35,6 @@ nav .source {
 	box-shadow: 0px 3px 3px 0px;
 	min-width: 120px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
