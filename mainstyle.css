@@ -1,17 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
-ul {
+nav ul {
 	list-style-type: none;
 	overflow: hidden;
 	border: 1px solid black;
-	}
+}
 
-li {
+nav li {
 	float: left;
 
 }
-
-li a {
+nav li a {
 	color: black;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -19,16 +18,13 @@ li a {
 	font-size: 20px;
 
 }
-
-a:hover:not(.active) {
+nav a:hover:not(.active) {
   	color: orange;
 }
-
-.source:hover .dropcontent {
+nav .source:hover .dropcontent {
 	display: block;
 }
-
-.source {
+nav .source {
 	display: inline-block;
 }
 
@@ -40,3 +36,74 @@ a:hover:not(.active) {
 	box-shadow: 0px 3px 3px 0px;
 	min-width: 120px;
 }
+
+
+
+
+
+
+
+.container{
+    margin: 0 10%;
+}
+
+.container h1{
+    margin: 5px 0;
+    font-size: 40px;
+}
+.artists{
+    display: table-cell;
+    vertical-align: middle;
+}
+.tg {
+    width: 50%;
+}
+
+
+.artists .iconleft{
+    float: left;
+    margin-right: 20px;
+}
+.artists .imgleft{
+    float: left;
+    margin-right: 20px;
+}
+.artists .textleft{
+    text-align: justify;
+    line-height: 150%;
+    margin-right: 20px;
+}
+.artists .iconleft ul{
+    list-style: none;
+    padding: 0;
+}
+.artists .iconleft i{
+    color: rgb(50, 50, 50);
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+
+
+.artists .iconright{
+    float: right;
+    margin-left: 20px;
+}
+.artists .imgright{
+    float: right;
+    margin-left: 20px;
+}
+.artists .textright{
+    text-align: justify;
+    line-height: 150%;
+}
+.artists .iconright ul{
+    list-style: none;
+    padding: 0;
+}
+.artists .iconright i{
+    color: rgb(50, 50, 50);
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
