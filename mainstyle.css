@@ -1,17 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
-ul {
+#nav ul {
 	list-style-type: none;
 	overflow: hidden;
 	border: 1px solid black;
 	}
 
-li {
+#nav ul li {
 	float: left;
 
 }
 
-li a {
+#nav ul li a {
 	color: black;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -20,7 +20,7 @@ li a {
 
 }
 
-a:hover:not(.active) {
+#nav ul li a:hover:not(.active) {
   	color: orange;
 }
 
@@ -40,14 +40,15 @@ a:hover:not(.active) {
 	box-shadow: 0px 3px 3px 0px;
 	min-width: 120px;
 }
+
+
+
 .container{
     margin: 0 10%;
 }
 h1{
     font-size: 48px;
 }
-
-
 .artists{
     overflow: hidden;
 }
