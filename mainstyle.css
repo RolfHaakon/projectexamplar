@@ -4,13 +4,14 @@
 .container{
     margin: 0 10%;
 }
-h1{
-    font-size: 48px;
-}
 .artists{
-    height:315px;
+    height:320px;
+    display: table-cell;
+    vertical-align: middle;
 }
-
+.tg {
+    width: 50%;
+}
 
 
 .artists .iconleft{
@@ -31,7 +32,7 @@ h1{
     padding: 0;
 }
 .artists .iconleft i{
-    color: rgb(0, 0, 50);
+    color: rgb(50, 50, 50);
     font-size: 28px;
     margin-bottom: 15px;
 }
@@ -55,7 +56,7 @@ h1{
     padding: 0;
 }
 .artists .iconright i{
-    color: rgb(0, 0, 50);
+    color: rgb(50, 50, 50);
     font-size: 28px;
     margin-bottom: 15px;
 }
