@@ -10,7 +10,7 @@ nav li {
 	float: left;
 
 }
-nav ul li a {
+nav li a {
 	color: black;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -27,6 +27,7 @@ nav .source:hover .dropcontent {
 nav .source {
 	display: inline-block;
 }
+
 .dropcontent {
 	display: none;
 	position: absolute;
@@ -46,12 +47,10 @@ nav .source {
     margin: 0 10%;
 }
 
-
 .container h1{
     margin: 5px 0;
     font-size: 40px;
 }
-.
 .artists{
     display: table-cell;
     vertical-align: middle;
@@ -107,3 +106,4 @@ nav .source {
     font-size: 28px;
     margin-bottom: 15px;
 }
+
