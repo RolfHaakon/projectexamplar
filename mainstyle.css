@@ -45,6 +45,13 @@ nav .source {
 .container{
     margin: 0 10%;
 }
+
+
+.container h1{
+    margin: 5px 0;
+    font-size: 40px;
+}
+.
 .artists{
     display: table-cell;
     vertical-align: middle;
