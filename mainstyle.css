@@ -40,3 +40,65 @@ a:hover:not(.active) {
 	box-shadow: 0px 3px 3px 0px;
 	min-width: 120px;
 }
+.container{
+    margin: 0 10%;
+}
+h1{
+    font-size: 48px;
+}
+
+
+.artists{
+    overflow: hidden;
+}
+
+
+
+.artists .iconleft{
+    float: left;
+    margin-right: 20px;
+}
+.artists .imgleft{
+    float: left;
+    margin-right: 20px;
+}
+.artists .textleft{
+    text-align: justify;
+    line-height: 150%;
+    margin-right: 20px;
+	overflow: hidden;
+}
+.artists .iconleft ul{
+    list-style: none;
+    padding: 0;
+}
+.artists .iconleft i{
+    color: rgb(0, 0, 50);
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+
+
+.artists .iconright{
+    float: right;
+    margin-left: 20px;
+}
+.artists .imgright{
+    float: right;
+    margin-left: 20px;
+}
+.artists .textright{
+    text-align: justify;
+    line-height: 150%;
+	overflow: hidden;
+}
+.artists .iconright ul{
+    list-style: none;
+    padding: 0;
+}
+.artists .iconright i{
+    color: rgb(0, 0, 50);
+    font-size: 28px;
+    margin-bottom: 15px;
+}
