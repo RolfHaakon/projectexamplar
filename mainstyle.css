@@ -1,5 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
+body {
+	padding: 0;
+	margin: 0;
+}
+
 #nav ul {
 	list-style-type: none;
 	overflow: hidden;
@@ -22,6 +27,12 @@
 
 #nav ul li a:hover:not(.active) {
   	color: orange;
+}
+
+#logo {
+	float: left;
+	padding-left: 80px;
+	
 }
 
 .source:hover .dropcontent {
@@ -48,6 +59,7 @@
 }
 h1{
     font-size: 48px;
+	padding-top: 28px;
 }
 .artists{
     overflow: hidden;
@@ -102,4 +114,12 @@ h1{
     color: rgb(0, 0, 50);
     font-size: 28px;
     margin-bottom: 15px;
+}
+
+footer {
+	padding: 2px;
+	margin-top: 20px;
+	text-align: center;
+	bottom: auto;
+	background-color:#6B6B6B;
 }
