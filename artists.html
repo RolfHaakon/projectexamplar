@@ -11,40 +11,38 @@
 </head>
 
 <body>
-<div class="header">
-	<header>
+<div>
+	<header class="container">
 	<img id="logo" src="images/logo/TCMC98Neg.jpg" alt="logo" height="" width="">
-		<h1>Townsville Music</h1>
+		<h1 id="header">Townsville Music</h1>
+	<nav id="nav">
+		<ul>
+			<li class="source"><a href="#">About Us</a>
+					<div class="dropcontent">
+					<a href="#">History</a>
+					<br>
+					<a href="#">Sponsors</a>
+					</div>
+			</li>
+			<li><a href="#">Events</a></li>
+			<li><a href="#">Bulletin Board</a></li>
+			<li><a href="#">Musos</a></li>
+			<li class="source"><a href="#">Registration</a>
+					<div class="dropcontent">
+					<a href="#">Member</a>
+					<br>
+					<a href="#">Volunteer</a>
+					</div>
+			</li>
+			<li><a class="contactus" href="#">Contact Us</a></li>
+		</ul>
+	</nav>
 	</header>
-<nav id="nav">
-<ul>
-	<li class="source"><a href="#">About Us</a>
-			<div class="dropcontent">
-			<a href="#">History</a>
-			<br>
-			<a href="#">Sponsors</a>
-			</div>
-	</li>
-	<li><a href="#">Events</a></li>
-	<li><a href="#">Bulletin Board</a></li>
-	<li><a href="#">Musos</a></li>
-	<li class="source"><a href="#">Registration</a>
-			<div class="dropcontent">
-			<a href="#">Member</a>
-			<br>
-			<a href="#">Volunteer</a>
-			</div>
-	</li>
-	<li><a class="contactus" href="#">Contact Us</a></li>
-</ul>
-</nav>
-
-<br>
-	<div id="searchbar">
-	<input type="text" id="input" onkeyup="searchBar()" placeholder="Search for an artist.." title="Type in a name" style="float:right">
-	</div>
+	
 </div>	
+
 <div id="test" class="container">
+	<input type="text" id="input" onkeyup="searchBar()" placeholder="Search for an artist.." title="Type in a name" style="float:right">
 	<h1>Artists</h1>
 	<ul id="mySearch" style="list-style: none;">
 		<!-- 1-->
