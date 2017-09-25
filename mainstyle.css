@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	padding: 0;
+	margin: 0;
+}
+.header {
+	margin-top: -32px;
+}
+
+
+#nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	float: right;
+	margin-top: -40px;
+	margin-right: 90px;
+
+	}
+
+#nav ul li {
+	float: left;
+
+}
+
+#nav ul li a {
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#nav ul li a:hover:not(.active) {
+  	text-decoration: underline grey;
+}
+#nav a.active {
+	text-decoration: underline;
+}
+
+#logo {
+	float: left;
+	padding-left: 80px; 
+	margin-top: 15px;
+}
+
+.source:hover .dropcontent {
+	display: block;
+}
+
+.source {
+	display: inline-block;
+}
+
+.dropcontent {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 120px;
+	padding: 2px;
+}
+
+.container{
+    margin: 0 10%;
+}
+h1{
+    font-size: 48px;
+	padding-top: 28px;
+}
+.artists{
+    overflow: hidden;
+}
+
+.artists .iconleft{
+    float: left;
+    margin-right: 20px;
+}
+.artists .imgleft{
+    float: left;
+    margin-right: 20px;
+}
+.artists .textleft{
+    text-align: justify;
+    line-height: 150%;
+    margin-right: 20px;
+	overflow: hidden;
+}
+.artists .iconleft ul{
+    list-style: none;
+    padding: 0;
+}
+.artists .iconleft i{
+    color: rgb(0, 0, 50);
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.artists .iconright{
+    float: right;
+    margin-left: 20px;
+}
+.artists .imgright{
+    float: right;
+    margin-left: 20px;
+}
+.artists .textright{
+    text-align: justify;
+    line-height: 150%;
+	overflow: hidden;
+}
+.artists .iconright ul{
+    list-style: none;
+    padding: 0;
+}
+.artists .iconright i{
+    color: rgb(0, 0, 50);
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.eventstable {
+	background-color: #f1f1f1;
+	padding: 10px;
+	margin-top: 30px;
+}
+.pasteventstable {
+	padding: 10px;
+	margin-top: -115px;
+}
+.firstline {
+	background-color: #727272;
+}
+.firstline img {
+	float: left;
+	height: 100px;
+	width: 50px;
+	margin: 10px;
+	margin-bottom: 50px;
+	background-color: white;
+}
+.firstline p {
+	margin: 0;
+	margin-top: 5px;
+}
+.secondline {
+	background-color: #f1f1f1;
+	padding-bottom: 70px;
+}
+.secondline img {
+	position: absolute;
+	margin: 10px;
+}
+.secondline p {
+	margin-left: 260px;
+}
+.secondline2 img {
+	height: 100px;
+	width: 300px;
+	margin: 10px;
+	margin-bottom: 50px;
+	background-color: #f1f1f1;
+
+}
+.thirdline {
+	background-color: #727272;
+	padding-bottom: 70px;
+}
+.thirdline img {
+	height: 365px;
+	width: 365px;
+	float: left;
+	margin-top: 30px;
+	margin: 10px;
+}
+.thirdline2 img {
+	height: 100px;
+	width: 300px;
+	float: left;
+	margin: 10px;
+	margin-bottom: 50px;
+	padding-bottom: 70px;
+}
+.thirdline p {
+	float: left;
+	width: 500px;
+	margin-left: 10px;
+}
+.fourthline {
+	
+}
+.fourthline img {
+	height: 365px;
+	float: left;
+	margin: 10px;
+}
+.fourthline2 img {
+	height: 100px;
+	width: 300px;
+	float: left;
+	padding-bottom: 70px;
+}
+.fifthline {
+	background-color: #f1f1f1;
+	padding-bottom: 70px;
+}
+.fifthline img {
+	float: left;
+	margin: 10px;
+}
+.fifthline p {
+	text-indent: 10px;
+}
+
+.sixthline img {
+	height: 365px;
+	width: 365px;
+	float: left;
+	margin-top: 30px;
+	margin: 10px;
+}
+.sixthline p {
+	float: left;
+	width: 500px;
+	margin-left: 10px;
+}
+.sixthline2 img {
+	height: 100px;
+	width: 300px;
+	float: left;
+}
+
+.pasteventslink {
+	text-align: center;
+}
+
+.pasteventslink a {
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+}
+.pasteventslink a:hover {
+	text-decoration: underline;
+}
+.upcomingeventslink {
+	text-align: center;
+}
+.upcomingeventslink a{
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+}
+.upcomingeventslink a:hover{
+	text-decoration: underline;
+}
+
+.bulletintable tr td {
+	border: 1px solid black;
+}
+.bulletintable td {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+.sponsors {
+	float: left;
+}
+footer a {
+	color: black;
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: underline;
+
+}
+
+footer {
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 20px;
+	background-color:#6B6B6B;
+}
+
