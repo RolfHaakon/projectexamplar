@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mainstyle.css">
+<meta name="viewport" content="width=device-width">
+<meta charset="utf-8">
+<title>Artists</title>
+<link href="mainstyle.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<div>
+	<header class="container">
+	<img id="logo" src="images/logo/TCMC98Neg.jpg" alt="logo" height="" width="">
+		<h1 id="header">Townsville Music</h1>
+	<nav id="nav">
+		<ul>
+			<li class="source"><a href="#">About Us</a>
+					<div class="dropcontent">
+					<a href="#">History</a>
+					<br>
+					<a href="#">Sponsors</a>
+					</div>
+			</li>
+			<li><a href="#">Events</a></li>
+			<li><a href="#">Bulletin Board</a></li>
+			<li><a href="#">Musos</a></li>
+			<li class="source"><a href="#">Registration</a>
+					<div class="dropcontent">
+					<a href="#">Member</a>
+					<br>
+					<a href="#">Volunteer</a>
+					</div>
+			</li>
+			<li><a class="contactus" href="#">Contact Us</a></li>
+		</ul>
+	</nav>
+	</header>
+	
+</div>
+<body>	
+
+<div class="regbox">
+	
+		<h2>Become a member</h2>
+		<p>
+		You can support the Music Centre by becoming a Member and derive some benefits for yourself at the same time. Your subscription helps to keep us operating and we provide substantial discounts whenever possible. 
+		For the Music Centre's own events, Members' ticket discounts can be as high as 50%!
+		Individual Membership subscription is $25 per year.
+		</p>
+		
+		<p>
+		The Music Centre is registered as a Deductible Gift Recipient. Any extra donations are tax-deductible!
+		</p>
+
+	
+	<div class="registerb">
+	<button onclick="document.getElementById('regdiv').style.display='block'">Register</button>
+	<form action="https://www.paypal.com/donate/?token=A6k_JIjvxY7rwwd2OR1I-97iAUsoL9SH5FvPBRrvj7F3hFIJw_lOifOpbcO0HdDiS7roHm&country.x=AU&locale.x=AU" method="post">
+
+    <input type="hidden" name="Townsville Music Center"
+        value="Townsvillemusic@TownsvilleMusic.org">
+
+    
+    <input type="hidden" name="cmd" value="_donations">
+
+   
+    <input type="hidden" name="item_name" value="">
+    <input type="hidden" name="item_number" value="">
+    <input type="hidden" name="currency_code" value="USD">
+
+    <input type="image" name="submit"
+    src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png"
+    alt="Donate">
+    <img alt="" width="1" height="1"
+    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+	</form>
+	</div>
+
+
+	</div>
+
+
+
+
+
+<div id="regdiv" class="modal">
+<form id="regform" name="regform" class="modal-content animate">
+<div class="containerreg">
+<label><b>Name</b></label>
+    	<input type="text" placeholder="Enter Full Name" name="fname">
+		<span id="errname" class="error">*Please enter full name*</span>
+		
+		<br>
+   <label><b>Mobile</b></label>
+    	<input type="text" placeholder="Enter Mobile Number" name="mobile">
+		<span id="errmobile" class="error">*Please enter mobile number*</span>
+    	<br>
+  <label><b>Email</b></label>
+    	<input type="text" placeholder="Enter Email" name="email">
+		<span id="erremail" class="error">*Please enter email*</span>
+    	<br>
+    	<label><b>Postal Address</b></label>
+    	<input type="text" placeholder="Enter Address" name="address">
+		<span id="erraddress" class="error">*Please enter address*</span>
+		<br>
+<label><b>Password</b></label>
+    	<input id="pass1" type="password" placeholder="Enter Password" name="pass">
+		<span id="errpassword" class="error">*Please enter password*</span>
+	
+   		<br>
+<label><b>Confirm Password</b></label>
+    	<input id="pass2" type="password" placeholder="Confirm Password" name="confirmpass" onBlur="myFunction()">
+		<span id="errpasswordconfirm" class="error">*Please enter password*</span>
+		
+		<div class="clearfix">
+        <button type="button" onclick="document.getElementById('regdiv').style.display='none'" class="cancelbtn">Cancel</button>
+		<input type="button" value="Submit" class="signupbtn" onclick="validate();"/>
+	</div>
+	</div>
+	</form>
+</div>
+
+
+<footer>
+	<h3 style="margin: -1px;">Sponsors :</h3>
+		<div class="sponsors">				
+	<img src="images/sponsors/QueenslandGovernment.png" height="40" width="40"><a href="https://www.qld.gov.au/" target="_blank">QueenslandGovernment</a>
+	<br>
+	<img src="images/sponsors/townsville.gif" height="40" width="40">
+	<a href="https://www.townsville.qld.gov.au/" target="_blank">Townsville City</a>
+		</div>
+	<p id="copyright">Townsville Music Center Copyright &copy; 2017</p>		
+</footer>
+
+
+
+
+
+
+<script src="javascriptnew.js"></script>
+</body>
+</html>
