@@ -59,8 +59,8 @@ body {
     position: absolute;
     font-size: 48px;
     font-weight: bolder;
-    left: 280px;
-    top: 30px;
+    left: 23%;
+    top: 4%;
     color: #fff;
     text-shadow: 5px 5px 15px #3c3c3c;
 }
@@ -74,8 +74,8 @@ body {
     font-weight: bold;
     font-size: 20px;
     box-shadow: 5px 5px 15px #3c3c3c;
-    left: 550px;
-    top: 110px;
+    left: 43%;
+    top: 16%;
 }
 .banner .cta:hover{
     background-color: #fff000;
