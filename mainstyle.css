@@ -4,8 +4,12 @@ body {
 	padding: 0;
 	margin: 0;
 }
-.header {
-	margin-top: -32px;
+#header{
+    font-size: 48px;
+	padding-top: 28px;
+	padding-left: 15px;
+	float: left; 
+	overflow: hidden;
 }
 
 
@@ -13,9 +17,8 @@ body {
 	list-style-type: none;
 	overflow: hidden;
 	float: right;
-	margin-top: -40px;
-	margin-right: 90px;
-
+	padding-top: 90px;
+	padding-bottom: 50px;
 	}
 
 #nav ul li {
@@ -32,11 +35,12 @@ body {
 }
 
 #nav ul li a:hover:not(.active) {
-  	text-decoration: underline grey;
+  	text-decoration: underline;
 }
 #nav a.active {
 	text-decoration: underline;
 }
+
 
 #logo {
 	float: left;
@@ -56,20 +60,20 @@ body {
 	display: none;
 	position: absolute;
 	background-color: white;
+	box-shadow: 0px 0px 3px 0px;
 	min-width: 120px;
-	padding: 2px;
 }
 
 .container{
-    margin: 0 10%;
+    margin: 0% 10% 3%;
+	overflow: hidden;
+	clear:both;
 }
-h1{
-    font-size: 48px;
-	padding-top: 28px;
-}
+
 .artists{
     overflow: hidden;
 }
+
 
 .artists .iconleft{
     float: left;
