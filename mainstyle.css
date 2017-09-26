@@ -40,8 +40,8 @@ body {
 
 #logo {
 	float: left;
-	padding-left: 80px; 
-	margin-top: 15px;
+	padding-top:30px;
+	overflow: hidden;
 }
 
 .source:hover .dropcontent {
