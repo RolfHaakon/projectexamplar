@@ -150,3 +150,180 @@ footer {
 	background-color:#6B6B6B;
 }
 
+/*RegistrationANDvolunteer*/
+
+.error {
+	color: red;
+	font-style: italic;
+	font-size: 10px;
+	visibility: hidden;
+}
+.registerb {
+	width: 250px;
+	display: inline-block;
+	margin-left: 34%;
+}
+.registerb button {
+	    background-color: #4CAF50;
+    color: white;
+	padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+	float: left;
+
+}
+.registerb input {
+	float: right;
+	cursor: pointer;
+	height: 43px;
+	width: 100px;
+}
+
+
+.regbox {
+	margin-left: 10%;
+	margin-right: 10%;
+	min-height: 350px;
+}
+.regbox img {
+	float: left;
+}
+.regbox h2 {
+	text-align: center;
+}
+
+.leftbox1 {
+	max-width: 50%;
+	float: left;
+	background-color: black;
+	color: white;
+}
+.rightbox1 {
+	max-width: 45%;
+	float: right;
+	background-color: black;
+	color: white;
+}
+.rightbox1 input {
+	padding-left: 37%;
+}
+
+
+#regform input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.leftbox1 button {
+    background-color: #4CAF50;
+    color: white;
+	padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+	margin-left: 27%;
+}
+
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+.signupbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+.cancelbtn {
+	color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+.containerreg {
+    padding: 16px;
+}
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 60%; 
+}
+
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+.val-error{
+	color: #FF1F1F;
+}
+#error-name{
+	color : red;
+	padding: 5px 0;
+	font-size: 14px;
+}
+#error-mobile {
+	color : red;
+	padding: 5px 0;
+	font-size: 14px;
+}
+.textbox1 {
+	line-height: 25px;
+	padding: 25px 100px 0 100px;
+}
