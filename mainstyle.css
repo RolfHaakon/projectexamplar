@@ -4,21 +4,21 @@ body {
 	padding: 0;
 	margin: 0;
 }
-.header {
-	background-color: #e0d2d2;
-	margin-top: -32px;
-}
-#searchbar {
-	margin-right: 165px;
+
+#header{
+    font-size: 48px;
+	padding-top: 28px;
+	padding-left: 15px;
+	float: left; 
+	overflow: hidden;
 }
 
 #nav ul {
 	list-style-type: none;
 	overflow: hidden;
 	float: right;
-	margin-top: -40px;
-	margin-right: 90px;
-
+	padding-top: 90px;
+	padding-bottom: 50px;
 	}
 
 #nav ul li {
@@ -44,8 +44,8 @@ body {
 
 #logo {
 	float: left;
-	padding-left: 80px; 
-	margin-top: 15px;
+	padding-top:30px;
+	overflow: hidden;
 }
 
 .source:hover .dropcontent {
@@ -65,16 +65,13 @@ body {
 }
 
 .container{
-    margin: 0 10%;
-}
-h1{
-    font-size: 48px;
-	padding-top: 28px;
+    margin: 0% 10% 3%;
+	overflow: hidden;
+	clear:both;
 }
 .artists{
     overflow: hidden;
 }
-
 
 
 .artists .iconleft{
@@ -142,6 +139,7 @@ footer a:hover {
 
 }
 
+
 footer {
 	padding-top: 15px;
 	padding-left: 15px;
@@ -150,3 +148,129 @@ footer {
 	background-color:#6B6B6B;
 }
 
+/*About us*/
+.smallcontain{
+	margin: 0% 25% 3%;
+	overflow: hidden;
+	clear:both;
+	width: 850px;
+}
+.smallcontain2{
+	margin: 0% 15% 3%;
+	overflow: hidden;
+	clear:both;
+	width: 1000px;
+}
+.midcontainer{
+	width: 600px;
+	line-height: 25px;
+	text-align: justify;
+	overflow: hidden;
+	float: left;
+}
+.midcontainer2{
+	width: 500px;
+	line-height: 25px;
+	text-align: justify;
+	overflow: hidden;
+	float: left;
+}
+.midcontainer3{
+	width: 500px;
+	line-height: 25px;
+	text-align: justify;
+	overflow: hidden;
+	float: left;
+}
+.textbox{
+	width: 25px;
+	float: left;
+	list-style: none; 
+	display: inline;
+}
+.textbox2{
+	width: 300px;
+	float: left;
+	list-style: none; 
+	display: inline;
+}
+/*timeline*/
+.timeline {
+ 	white-space: nowrap;
+ 	overflow-x: scroll;
+	width: 100%;	
+	background-color: #cefee4;
+}
+ 
+.timeline ol {
+	font-size: 0;
+	width: 100vw;
+	padding: 350px 20px;
+}
+ 
+.timeline ol li {
+	position: relative;
+	display: inline-block;
+	list-style-type: none;
+	width: 160px;
+	height: 3px;
+	background: #A2A2A2;
+}
+ 
+.timeline ol li:not(:last-child)::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	bottom: 0;
+	width: 12px;
+	height: 12px;
+	transform: translateY(-50%);
+	border-radius: 50%;
+	background: #F45B69;
+}
+.timeline ol li:hover {
+	cursor: pointer;
+}
+
+/*Timeline textbox*/
+.timeline ol li div {
+  position: absolute;
+  left: 7px;
+  width: 280px;
+  padding: 15px;
+  font-size: 1rem;
+  white-space: normal;
+  color:#FFFFFF;
+  background: #777777;
+}
+ 
+.timeline ol li div::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ol li:nth-child(odd) div {
+  top: -25px;
+  transform: translateY(-100%);
+}
+ 
+.timeline ol li:nth-child(odd) div::before {
+  top: 98%;
+  border-width: 15px 15px 0 0;
+  border-color: #777777 transparent transparent transparent;
+}
+
+.timeline ol li:nth-child(even) div {
+  top: calc(100% + 16px);
+}
+ 
+.timeline ol li:nth-child(even) div::before {
+  top: -8px;
+  border-width: 8px 0 0 8px;
+  border-color: transparent transparent transparent #777777;
+}
