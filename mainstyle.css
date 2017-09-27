@@ -78,9 +78,10 @@ body {
 	height: 170px;
 }
 .banner .text{
-	padding-top: 30px;
-	padding-bottom: 15px;
-	text-align: center;
+
+	  padding-top: 30px;
+	  padding-bottom: 15px;
+    text-align: center;
     font-size: 48px;
     font-weight: bolder;
     color: #fff;
@@ -101,7 +102,7 @@ body {
     background-color: #fff000;
     box-shadow: 5px 5px 15px #111111;
 }
-.banner .cta a{
+.banner .cta{
     text-decoration: none;
     color: #000000;
     display: block;
@@ -254,6 +255,7 @@ aside{
 .mus img{
     margin-top: 5%;
     padding: 0 5%;
+    width: 90%;
 }
 aside h2{
     margin: 0;
