@@ -653,6 +653,7 @@ aside h2{
     border: none;
     cursor: pointer;
 	float: left;
+	border-radius: 5px;
 
 }
 .registerb input {
@@ -690,7 +691,10 @@ aside h2{
 	padding-left: 37%;
 }
 
-#regform input[type=text], input[type=password] {
+
+
+#regform input[type=text], input[type=password],input[type=number] {
+
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
