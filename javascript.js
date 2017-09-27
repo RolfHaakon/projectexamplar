@@ -1,5 +1,8 @@
 // JavaScript Document
-
+//Link to other page
+function linkPage(){
+	location.href="https://www.facebook.com/TownsvilleConcertBand/";
+}
 // IMAGE SLIDER
 var slideIndex = 1;
 showSlides(slideIndex);

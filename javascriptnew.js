@@ -47,7 +47,6 @@ function check()
 function validate(){
 	if(check() == 0)
 		{
-		alert("dummy");
 		location.href="http:\\www.paypal.com";
 		}
 	else {
