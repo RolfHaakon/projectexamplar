@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mainstyle.css">
+<meta name="viewport" content="width=device-width">
+<meta charset="utf-8">
+<title>Artists</title>
+<link href="mainstyle.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<div id="navbg">
+	<header class="container">
+	<a href="index.html"><img id="logo" src="images/logo/TCMC98Neg.jpg" alt="logo" height="110" width=""></a>
+	<nav id="nav">
+		<ul>
+			<li class="source"><a href="#">About Us</a>
+					<div class="dropcontent">
+					<a href="about.html">History</a>
+					<br>
+					<a href="sponsors.html">Sponsors</a>
+					</div>
+			</li>
+			<li><a href="events.html">Events</a></li>
+			<li><a href="bulletinboard.html">Bulletin Board</a></li>
+			<li><a href="artists.html">Musos</a></li>
+			<li class="source"><a href="#">Registration</a>
+					<div class="dropcontent">
+					<a href="newregistration.html">Member</a>
+					<br>
+					<a href="volunteer.html">Volunteer</a>
+					</div>
+			</li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	</header>
+</div>
+
+
+<div class="regbox">
+		<div class="textbox1">
+		<h2>Become a volunteer!</h2>
+		<p>
+		Volunteers required! 
+		To promote live performances, we try to keep production costs to a minimum. The Townsville City Council assists us by allowing many tasks to be done by volunteers. Most volunteer activities do not require any special skills. Ushers play a special role, taking tickets at the door and ensuring the comfort and safety of all patrons. A brief, free training session is compulsory for this role. After training, ushers are registered with Civic Theatre management and may work at many theatre performances throughout the year. 
+		<br>
+		<p>We are reliant on donations, so please consider making one. All donations are <em>Tax-deductible</em>!<br>
+		<em>Register and become a volunteer today!</em>.</p>
+		</p>
+	</div>
+	
+	<div class="registerb">
+	<button onclick="document.getElementById('regdiv').style.display='block'">Register</button>
+	<form action="https://www.paypal.com/donate/?token=A6k_JIjvxY7rwwd2OR1I-97iAUsoL9SH5FvPBRrvj7F3hFIJw_lOifOpbcO0HdDiS7roHm&country.x=AU&locale.x=AU" method="post">
+
+    <input type="hidden" name="Townsville Music Center"
+        value="Townsvillemusic@TownsvilleMusic.org">
+
+    
+    <input type="hidden" name="cmd" value="_donations">
+
+   
+    <input type="hidden" name="item_name" value="">
+    <input type="hidden" name="item_number" value="">
+    <input type="hidden" name="currency_code" value="USD">
+
+    <input type="image" name="submit"
+    src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png"
+    alt="Donate">
+    <img alt="" width="1" height="1"
+    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+	</form>
+	</div>
+
+
+	</div>
+
+<div id="regdiv" class="modal">
+<form id="regform" name="regform" class="modal-content animate">
+<div class="containerreg">
+<label><b>Name</b></label>
+    	<input type="text" placeholder="Enter Full Name" name="fname">
+		<span id="errname" class="error">*Please enter full name*</span>
+ 		
+ 		<br>
+   <label><b>Mobile</b></label>
+    	<input type="text" placeholder="Enter Mobile Number" name="mobile">
+		<span id="errmobile" class="error">*Please enter mobile number*</span>
+   
+    	<br>
+  <label><b>Email</b></label>
+    	<input type="text" placeholder="Enter Email" name="email">
+	<span id="erremail" class="error">*Please enter email*</span>
+
+		<div class="clearfix">
+        <button type="button" onclick="document.getElementById('regdiv').style.display='none'" class="cancelbtn">Cancel</button>
+		<input type="button" value="Submit" class="signupbtn" onclick="validate();"/>
+		</div>
+    </div>
+  </form>
+</div>
+
+<br>
+<br>
+<footer class="footerbg">
+	<h3 style="float: left; color: #FFF;">Sponsors :</h3>
+		<div class="sponsors">				
+			<a href="sponsors.html"><img src="images/sponsors/QueenslandGovernment.png" height="100" width="90"></a>
+			<a href="sponsors.html"><img src="images/sponsors/townsville.gif" height="90" width="80"></a>
+		</div>
+	<p style="float: right; color: #FFF; padding-top: 60px;">Townsville Music Center Copyright &copy; 2017</p>	
+</footer>
+
+ 
+
+<script src="javavolunteer.js"></script>
+
+
+	</body>
+</html>

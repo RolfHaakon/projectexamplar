@@ -16,15 +16,13 @@ body {
 	overflow: hidden;
 	color:#FFF;
 }
-
-/* Navigation menu */
-#nav ul {
+#nav ul{
 	list-style-type: none;
 	overflow: hidden;
 	float: right;
 	padding-top: 70px;
 	padding-bottom: 40px;
-	}
+}
 #nav ul li {
 	float: left;
 }
@@ -74,26 +72,31 @@ body {
     margin-bottom: 1%;
     overflow: hidden;
 }
+.banner .imgbg{
+	background:url(images/banner/rosewoodgrain.jpg);
+	width: 100%;
+	height: 170px;
+}
 .banner .text{
-    display: block;
-    position: relative;
+
+	  padding-top: 30px;
+	  padding-bottom: 15px;
+    text-align: center;
     font-size: 48px;
     font-weight: bolder;
     color: #fff;
     text-shadow: 5px 5px 15px #3c3c3c;
 }
 .banner .cta{
-    position: absolute;
+	text-align: center;
     background-color: #f7f316;
     border-radius: 30px;
     padding: 0.5%;
     width: 150px;
-    text-align: center;
     font-weight: bold;
     font-size: 20px;
     box-shadow: 5px 5px 15px #3c3c3c;
-    left: 43%;
-    top: 16%;
+	margin: auto;
 }
 .banner .cta:hover{
     background-color: #fff000;
@@ -110,7 +113,7 @@ body {
 }
 .banner .prev{
     position: absolute;
-    top: 75px;
+    top: 38%;
     padding: 0.5%;
     cursor: pointer;
     color: #ffffff;
@@ -119,8 +122,8 @@ body {
 }
 .banner .next{
     position: absolute;
-    top: 75px;
-    right: 127px;
+    top: 38%;
+    right: 10%;
     padding: 0.5%;
     cursor: pointer;
     color: #ffffff;
@@ -173,7 +176,6 @@ body {
     display: block;
     text-align: center;
     margin: 3% 0 3%;
-    margin-bottom: %;
     font-family: sans-serif;
     font-size: 40px;
 }
@@ -185,6 +187,7 @@ body {
     background-color: #f3f3f3;;
     border: solid #000000;
     border-width: 1px 2px;
+	text-align: justify;
 }
 .bullfeet{
     background-color: #f3f3f3;
@@ -288,11 +291,6 @@ aside h2{
 
 
 
-
-
-
-
-
 /* Musos */
 .container{
     margin: 0% 10% 3%;
@@ -348,6 +346,150 @@ aside h2{
     color: rgb(0, 0, 50);
     font-size: 28px;
     margin-bottom: 15px;
+}
+
+.eventstable {
+	background-color: #f1f1f1;
+	padding: 10px;
+	margin-top: 30px;
+}
+.pasteventstable {
+	padding: 10px;
+	margin-top: -115px;
+}
+.firstline {
+	background-color: #727272;
+}
+.firstline img {
+	float: left;
+	height: 100px;
+	width: 50px;
+	margin: 10px;
+	margin-bottom: 50px;
+	background-color: white;
+}
+.firstline p {
+	margin: 0;
+	margin-top: 5px;
+}
+.secondline {
+	background-color: #f1f1f1;
+	padding-bottom: 70px;
+}
+.secondline img {
+	position: absolute;
+	margin: 10px;
+}
+.secondline p {
+	margin-left: 260px;
+}
+.secondline2 img {
+	height: 100px;
+	width: 300px;
+	margin: 10px;
+	margin-bottom: 50px;
+	background-color: #f1f1f1;
+
+}
+.thirdline {
+	background-color: #727272;
+	padding-bottom: 70px;
+}
+.thirdline img {
+	height: 365px;
+	width: 365px;
+	float: left;
+	margin-top: 30px;
+	margin: 10px;
+}
+.thirdline2 img {
+	height: 100px;
+	width: 300px;
+	float: left;
+	margin: 10px;
+	margin-bottom: 50px;
+	padding-bottom: 70px;
+}
+.thirdline p {
+	float: left;
+	width: 500px;
+	margin-left: 10px;
+}
+.fourthline {
+	
+}
+.fourthline img {
+	height: 365px;
+	float: left;
+	margin: 10px;
+}
+.fourthline2 img {
+	height: 100px;
+	width: 300px;
+	float: left;
+	padding-bottom: 70px;
+}
+.fifthline {
+	background-color: #f1f1f1;
+	padding-bottom: 70px;
+}
+.fifthline img {
+	float: left;
+	margin: 10px;
+}
+.fifthline p {
+	text-indent: 10px;
+}
+
+.sixthline img {
+	height: 365px;
+	width: 365px;
+	float: left;
+	margin-top: 30px;
+	margin: 10px;
+}
+.sixthline p {
+	float: left;
+	width: 500px;
+	margin-left: 10px;
+}
+.sixthline2 img {
+	height: 100px;
+	width: 300px;
+	float: left;
+}
+
+.pasteventslink {
+	text-align: center;
+}
+
+.pasteventslink a {
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+}
+.pasteventslink a:hover {
+	text-decoration: underline;
+}
+.upcomingeventslink {
+	text-align: center;
+}
+.upcomingeventslink a{
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+}
+.upcomingeventslink a:hover{
+	text-decoration: underline;
+}
+
+.bulletintable tr td {
+	border: 1px solid black;
+}
+.bulletintable td {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
 }
 
 #copyright {
@@ -412,20 +554,19 @@ aside h2{
 	list-style: none; 
 	display: inline;
 }
-/*timeline*/
+
+/* Timeline*/
 .timeline {
  	white-space: nowrap;
  	overflow-x: scroll;
 	width: 100%;	
 	background-color: #cefee4;
 }
- 
 .timeline ol {
 	font-size: 0;
 	width: 100vw;
 	padding: 350px 20px;
 }
- 
 .timeline ol li {
 	position: relative;
 	display: inline-block;
@@ -434,7 +575,6 @@ aside h2{
 	height: 3px;
 	background: #A2A2A2;
 }
- 
 .timeline ol li:not(:last-child)::after {
 	content: '';
 	position: absolute;
@@ -461,7 +601,6 @@ aside h2{
   color:#FFFFFF;
   background: #777777;
 }
- 
 .timeline ol li div::before {
   content: '';
   position: absolute;
@@ -471,24 +610,187 @@ aside h2{
   height: 0;
   border-style: solid;
 }
-
 .timeline ol li:nth-child(odd) div {
   top: -25px;
   transform: translateY(-100%);
 }
- 
 .timeline ol li:nth-child(odd) div::before {
   top: 98%;
   border-width: 15px 15px 0 0;
   border-color: #777777 transparent transparent transparent;
 }
-
 .timeline ol li:nth-child(even) div {
   top: calc(100% + 16px);
 }
- 
 .timeline ol li:nth-child(even) div::before {
   top: -8px;
   border-width: 8px 0 0 8px;
   border-color: transparent transparent transparent #777777;
+}
+
+/*RegistrationANDvolunteer*/
+
+.error {
+	color: red;
+	font-style: italic;
+	font-size: 10px;
+	visibility: hidden;
+}
+.registerb {
+	width: 250px;
+	display: inline-block;
+	margin-left: 34%;
+}
+.registerb button {
+	    background-color: #4CAF50;
+    color: white;
+	padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+	float: left;
+
+}
+.registerb input {
+	float: right;
+	cursor: pointer;
+	height: 43px;
+	width: 100px;
+}
+
+.regbox {
+	margin-left: 10%;
+	margin-right: 10%;
+	min-height: 350px;
+}
+.regbox img {
+	float: left;
+}
+.regbox h2 {
+	text-align: center;
+}
+
+.leftbox1 {
+	max-width: 50%;
+	float: left;
+	background-color: black;
+	color: white;
+}
+.rightbox1 {
+	max-width: 45%;
+	float: right;
+	background-color: black;
+	color: white;
+}
+.rightbox1 input {
+	padding-left: 37%;
+}
+
+#regform input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.leftbox1 button {
+    background-color: #4CAF50;
+    color: white;
+	padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+	margin-left: 27%;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+.signupbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+.cancelbtn {
+	color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+.containerreg {
+    padding: 16px;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 60%; 
+}
+
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+.val-error{
+	color: #FF1F1F;
+}
+#error-name{
+	color : red;
+	padding: 5px 0;
+	font-size: 14px;
+}
+#error-mobile {
+	color : red;
+	padding: 5px 0;
+	font-size: 14px;
+}
+.textbox1 {
+	line-height: 25px;
+	padding: 25px 100px 0 100px;
+	text-align: justify;
 }
