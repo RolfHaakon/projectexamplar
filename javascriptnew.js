@@ -26,7 +26,7 @@ function check()
 	}
 	else
 		spans[2].style.visibility = "hidden";
-	
+		
 	if(document.regform.address.value == "")
 	{
 		spans[3].style.visibility = "visible";
@@ -34,6 +34,13 @@ function check()
 	}
 	else
 		spans[3].style.visibility = "hidden";
+	if(document.regform.pass.value == "")
+	{
+		spans[4].style.visibility = "visible";
+		return 1;
+	}
+	else
+		spans[4].style.visibility = "hidden";
 	
 	if(myFunction() !== 0){
 		return 1;
@@ -58,7 +65,6 @@ function myFunction() {
     var pass1 = document.getElementById("pass1").value;
     var pass2 = document.getElementById("pass2").value;
     if (pass1 != pass2) {
-        //alert("Passwords Do not match");
         document.getElementById("pass1").style.borderColor = "#E34234";
         document.getElementById("pass2").style.borderColor = "#E34234";
 		return 1;
@@ -68,6 +74,7 @@ function myFunction() {
     }
 }
 
+	
 var modal = document.getElementById('regdiv');
 
 
