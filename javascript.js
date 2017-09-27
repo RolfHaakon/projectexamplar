@@ -134,55 +134,7 @@ function showMore7(){
 			y.innerHTML="Show More";
 	}
 }
-function showMore8(){
-	var x = document.getElementById('more8');
-	var y= document.getElementById("show8");
-	if (x.style.display === 'none'){
-			x.style.display="block";	
-			y.innerHTML="Show Less";
-	} 
-	else {
-			x.style.display="none";	
-			y.innerHTML="Show More";
-	}
-}
 
-function showMore9(){
-	var x = document.getElementById('more9');
-	var y= document.getElementById("show9");
-	if (x.style.display === 'none'){
-			x.style.display="block";	
-			y.innerHTML="Show Less";
-	} 
-	else {
-			x.style.display="none";	
-			y.innerHTML="Show More";
-	}
-}
-function showMore10(){
-	var x = document.getElementById('more10');
-	var y= document.getElementById("show10");
-	if (x.style.display === 'none'){
-			x.style.display="block";	
-			y.innerHTML="Show Less";
-	} 
-	else {
-			x.style.display="none";	
-			y.innerHTML="Show More";
-	}
-}
-function showMore11(){
-	var x = document.getElementById('more11');
-	var y= document.getElementById("show11");
-	if (x.style.display === 'none'){
-			x.style.display="block";	
-			y.innerHTML="Show Less";
-	} 
-	else {
-			x.style.display="none";	
-			y.innerHTML="Show More";
-	}
-}
 
 //Timeline
 function hideAll(){
