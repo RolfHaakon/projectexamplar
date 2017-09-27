@@ -5,11 +5,9 @@ body {
 	padding: 0;
 	margin: 0;
 }
-
 #navbg{
 	background-color:#000;
 }
-
 #header{
     font-size: 48px;
 	padding-top: 28px;
@@ -18,7 +16,6 @@ body {
 	overflow: hidden;
 	color:#FFF;
 }
-
 #nav ul{
 	list-style-type: none;
 	overflow: hidden;
@@ -26,11 +23,9 @@ body {
 	padding-top: 70px;
 	padding-bottom: 40px;
 }
-
 #nav ul li {
 	float: left;
 }
-
 #nav ul li a {
 	color: #FFF;
 	padding-left: 10px;
@@ -39,29 +34,23 @@ body {
 	font-size: 22px;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
-
 #nav ul li a:hover:not(.active) {
   	text-decoration: underline;
 }
 #nav a.active {
 	text-decoration: underline;
 }
-
-
 #logo {
 	float: left;
 	padding-top:30px;
 	overflow: hidden;
 }
-
 .source:hover .dropcontent {
 	display: block;
 }
-
 .source {
 	display: inline-block;
 }
-
 .dropcontent {
 	display: none;
 	position: absolute;
@@ -307,7 +296,6 @@ aside h2{
     overflow: hidden;
 }
 
-
 .artists .iconleft{
     float: left;
     margin-right: 20px;
@@ -332,8 +320,6 @@ aside h2{
     margin-bottom: 15px;
 }
 
-
-
 .artists .iconright{
     float: right;
     margin-left: 20px;
@@ -356,7 +342,6 @@ aside h2{
     font-size: 28px;
     margin-bottom: 15px;
 }
-
 
 .eventstable {
 	background-color: #f1f1f1;
@@ -502,7 +487,6 @@ aside h2{
 	text-align: justify;
 }
 
-
 #copyright {
 	margin-top: 90px;
 	text-align: right;
@@ -565,20 +549,19 @@ aside h2{
 	list-style: none; 
 	display: inline;
 }
-/*timeline*/
+
+/* Timeline*/
 .timeline {
  	white-space: nowrap;
  	overflow-x: scroll;
 	width: 100%;	
 	background-color: #cefee4;
 }
- 
 .timeline ol {
 	font-size: 0;
 	width: 100vw;
 	padding: 350px 20px;
 }
- 
 .timeline ol li {
 	position: relative;
 	display: inline-block;
@@ -587,7 +570,6 @@ aside h2{
 	height: 3px;
 	background: #A2A2A2;
 }
- 
 .timeline ol li:not(:last-child)::after {
 	content: '';
 	position: absolute;
@@ -614,7 +596,6 @@ aside h2{
   color:#FFFFFF;
   background: #777777;
 }
- 
 .timeline ol li div::before {
   content: '';
   position: absolute;
@@ -624,22 +605,18 @@ aside h2{
   height: 0;
   border-style: solid;
 }
-
 .timeline ol li:nth-child(odd) div {
   top: -25px;
   transform: translateY(-100%);
 }
- 
 .timeline ol li:nth-child(odd) div::before {
   top: 98%;
   border-width: 15px 15px 0 0;
   border-color: #777777 transparent transparent transparent;
 }
-
 .timeline ol li:nth-child(even) div {
   top: calc(100% + 16px);
 }
- 
 .timeline ol li:nth-child(even) div::before {
   top: -8px;
   border-width: 8px 0 0 8px;
@@ -675,7 +652,6 @@ aside h2{
 	width: 100px;
 }
 
-
 .regbox {
 	margin-left: 10%;
 	margin-right: 10%;
@@ -704,7 +680,6 @@ aside h2{
 	padding-left: 37%;
 }
 
-
 #regform input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
@@ -713,7 +688,6 @@ aside h2{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
-
 .leftbox1 button {
     background-color: #4CAF50;
     color: white;
@@ -723,7 +697,6 @@ aside h2{
     width: 40%;
 	margin-left: 27%;
 }
-
 
 .cancelbtn {
     padding: 14px 20px;
@@ -744,7 +717,6 @@ aside h2{
     border: none;
     cursor: pointer;
 }
-
 .cancelbtn,.signupbtn {
     float: left;
     width: 50%;
@@ -753,8 +725,6 @@ aside h2{
 .containerreg {
     padding: 16px;
 }
-
-
 .modal {
     display: none; 
     position: fixed; 
@@ -768,8 +738,6 @@ aside h2{
     background-color: rgba(0,0,0,0.4); 
     padding-top: 60px;
 }
-
-
 .modal-content {
     background-color: #fefefe;
     margin: 5% auto 15% auto; 
@@ -786,20 +754,17 @@ aside h2{
     font-size: 40px;
     font-weight: bold;
 }
-
 .close:hover,
 .close:focus {
     color: red;
     cursor: pointer;
 }
 
-
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
-
 
 @media screen and (max-width: 300px) {
     .cancelbtn, .signupbtn {
