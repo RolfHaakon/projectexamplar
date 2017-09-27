@@ -17,20 +17,20 @@ body {
 	float: left; 
 	overflow: hidden;
 	color:#FFF;
+}
 
-
-/* Navigation menu */
-#nav ul {
+#nav ul{
 	list-style-type: none;
 	overflow: hidden;
 	float: right;
 	padding-top: 70px;
 	padding-bottom: 40px;
-	}
+}
 
 #nav ul li {
 	float: left;
 }
+
 #nav ul li a {
 	color: #FFF;
 	padding-left: 10px;
@@ -39,23 +39,29 @@ body {
 	font-size: 22px;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
+
 #nav ul li a:hover:not(.active) {
   	text-decoration: underline;
 }
 #nav a.active {
 	text-decoration: underline;
 }
+
+
 #logo {
 	float: left;
 	padding-top:30px;
 	overflow: hidden;
 }
+
 .source:hover .dropcontent {
 	display: block;
 }
+
 .source {
 	display: inline-block;
 }
+
 .dropcontent {
 	display: none;
 	position: absolute;
@@ -177,7 +183,6 @@ body {
     display: block;
     text-align: center;
     margin: 3% 0 3%;
-    margin-bottom: %;
     font-family: sans-serif;
     font-size: 40px;
 }
@@ -291,21 +296,16 @@ aside h2{
 
 
 
-
-
-
-
-
 /* Musos */
 .container{
     margin: 0% 10% 3%;
 	overflow: hidden;
 	clear:both;
 }
-
 .artists{
     overflow: hidden;
 }
+
 
 .artists .iconleft{
     float: left;
@@ -331,6 +331,8 @@ aside h2{
     margin-bottom: 15px;
 }
 
+
+
 .artists .iconright{
     float: right;
     margin-left: 20px;
@@ -353,6 +355,7 @@ aside h2{
     font-size: 28px;
     margin-bottom: 15px;
 }
+
 
 .eventstable {
 	background-color: #f1f1f1;
