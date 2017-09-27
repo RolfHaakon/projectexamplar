@@ -4,37 +4,34 @@ body {
 	padding: 0;
 	margin: 0;
 }
-#navbg{
-	background-color:#000;
-}
+
 #header{
     font-size: 48px;
 	padding-top: 28px;
 	padding-left: 15px;
 	float: left; 
 	overflow: hidden;
-	color:#FFF;
 }
 
 #nav ul {
 	list-style-type: none;
 	overflow: hidden;
 	float: right;
-	padding-top: 70px;
-	padding-bottom: 40px;
+	padding-top: 90px;
+	padding-bottom: 50px;
 	}
 
 #nav ul li {
 	float: left;
+
 }
 
 #nav ul li a {
-	color: #FFF;
+	color: black;
 	padding-left: 10px;
 	padding-right: 10px;
 	text-decoration: none;
-	font-size: 22px;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
 }
 
 #nav ul li a:hover:not(.active) {
@@ -62,14 +59,9 @@ body {
 .dropcontent {
 	display: none;
 	position: absolute;
-	padding: 10px;
-	background-color: #000;
-	color: #FFF;
+	background-color: white;
 	box-shadow: 0px 0px 3px 0px;
 	min-width: 120px;
-}
-.dropcontent a{
-	line-height: 35px;
 }
 
 .container{
@@ -132,19 +124,28 @@ body {
 }
 
 #copyright {
-	margin-top: 90px;
+	margin-top: 100px;
 	text-align: right;
 }
-.sponsors img{
+.sponsors {
 	float: left;
-	padding-left: 20px;
-	overflow: hidden;
+}
+footer a {
+	color: black;
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: underline;
+
 }
 
-.footerbg {
-	padding: 20px;
-	background-color:#000;
-	overflow: hidden;
+
+footer {
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 20px;
+	background-color:#6B6B6B;
 }
 
 /*About us*/
