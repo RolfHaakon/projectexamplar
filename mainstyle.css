@@ -821,4 +821,5 @@ aside h2{
 .textbox1 {
 	line-height: 25px;
 	padding: 25px 100px 0 100px;
+	text-align: justify;
 }
