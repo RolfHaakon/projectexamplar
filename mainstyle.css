@@ -67,7 +67,7 @@ body {
 /* Homepage */
 .banner{
     border: 1px solid #000000;
-    min-width: 100%;
+    min-width: 99%;
     height: 170px;
     margin-bottom: 1%;
     overflow: hidden;
@@ -79,8 +79,8 @@ body {
 }
 .banner .text{
 
-	  padding-top: 30px;
-	  padding-bottom: 15px;
+	padding-top: 30px;
+	padding-bottom: 15px;
     text-align: center;
     font-size: 48px;
     font-weight: bolder;
@@ -111,6 +111,8 @@ body {
     background-image:url(images/banner/AvivaTheatre6003.png); 
     width: 100%;
     height: 170px;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .banner .prev{
