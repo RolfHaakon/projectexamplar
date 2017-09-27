@@ -75,11 +75,10 @@ body {
     overflow: hidden;
 }
 .banner .text{
-    position: absolute;
+    display: block;
+    position: relative;
     font-size: 48px;
     font-weight: bolder;
-    left: 23%;
-    top: 4%;
     color: #fff;
     text-shadow: 5px 5px 15px #3c3c3c;
 }
@@ -100,7 +99,7 @@ body {
     background-color: #fff000;
     box-shadow: 5px 5px 15px #111111;
 }
-.banner .cta a{
+.banner .cta{
     text-decoration: none;
     color: #000000;
     display: block;
@@ -253,6 +252,7 @@ aside{
 .mus img{
     margin-top: 5%;
     padding: 0 5%;
+    width: 90%;
 }
 aside h2{
     margin: 0;
