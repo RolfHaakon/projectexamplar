@@ -89,7 +89,7 @@ body {
 }
 .banner .cta{
 	text-align: center;
-    background-color: #f7f316;
+    background-color: #fffdba;
     border-radius: 30px;
     padding: 0.5%;
     width: 150px;
@@ -102,28 +102,33 @@ body {
     background-color: #fff000;
     box-shadow: 5px 5px 15px #111111;
 }
-.banner .cta{
+.banner .cta a{
     text-decoration: none;
     color: #000000;
     display: block;
 }
-.banner img{
+.banner .imgbg2{
+    background-image:url(images/banner/AvivaTheatre6003.png); 
     width: 100%;
     height: 170px;
 }
+
 .banner .prev{
-    position: absolute;
-    top: 38%;
+    position: relative;
+    top: 40%;
+    width: 10px;
+    float: left;
     padding: 0.5%;
     cursor: pointer;
     color: #ffffff;
     background-color: #222222;
     opacity: 0.6;
 }
-.banner .next{
-    position: absolute;
-    top: 38%;
-    right: 10%;
+.imageslider .next{
+    position: relative;
+    top: 40%;
+    width: 10px;
+    float: right;
     padding: 0.5%;
     cursor: pointer;
     color: #ffffff;
@@ -139,7 +144,7 @@ body {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 0.3s;
 }
 @-webkit-keyframes fade {
     from {opacity: .4} 
